@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ChatroomServer.Properties
+namespace ChatroomServers.Properties
 {
 
 
