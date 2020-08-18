@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace AITRemcoHorbach
 {
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    [System.ServiceModel.ServiceContractAttribute(ConfigurationName = "ChatService.ISendChatService", CallbackContract = typeof(ChatClient.ISendChatServiceCallback))]
+    [System.ServiceModel.ServiceContractAttribute(ConfigurationName = "ChatService.ISendChatService", CallbackContract = typeof(AITRemcoHorbach.ISendChatServiceCallback))]
     public interface ISendChatService
     {
 
@@ -33,13 +33,13 @@ namespace AITRemcoHorbach
     }
 
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public interface ISendChatServiceChannel : ChatClient.ISendChatService, System.ServiceModel.IClientChannel
+    public interface ISendChatServiceChannel : AITRemcoHorbach.ISendChatService, System.ServiceModel.IClientChannel
     {
     }
 
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class SendChatServiceClient : System.ServiceModel.DuplexClientBase<ChatClient.ISendChatService>, ChatClient.ISendChatService
+    public partial class SendChatServiceClient : System.ServiceModel.DuplexClientBase<AITRemcoHorbach.ISendChatService>, AITRemcoHorbach.ISendChatService
     {
 
         public SendChatServiceClient(System.ServiceModel.InstanceContext callbackInstance) :
